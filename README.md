@@ -50,4 +50,68 @@ A incorporação pode ser realizada de duas maneiras:
 
 **Vide exemplo de inserção na pasta exemplo1**
 
+## Sintaxe JavaScript
 
+**Exemplos:**
+~~~~~~~
+<script>
+    var a = 10.5;       // atribuir variável, colocar var antes do nome. 
+    
+    let b = "XPTO";     // sempre usar ';'.
+    
+    const c = true;
+
+    a += 12;
+
+    if (a<=20){
+        a *= 5;    // se for usar mais de uma linha, tem que usar chaves. 
+    }
+</script>
+
+~~~~~~~
+
+~~~~~~~
+<script>
+    function somar(a,b) {
+        return a + b;
+    }
+
+    let somar2 = (a,b) => {
+        return a + b;
+    }
+    let somar3 = (a,b) => a + b;
+</script>
+~~~~~~~
+### Vetores
+~~~~~~~
+<script>
+    let v1 = new Array(15,21,32);
+    let v2 = [13,26,37]
+</script>
+~~~~~~~
+
+### Operadores aritméticos 
+**+**  - Soma valores, concatena strings
+**-** - subtrai valores
+**'*'** - multiplica valores
+**/** - divide valores
+**%** - resto da divisão
+
+### Operadores lógicos
+
+**&&**
+**||**
+**!**
+
+### Operadores relacionais
+
+**==** - Comparação
+**!=** - Diferença
+**>=** - Maior ou igual
+**<=** - Menor ou igual
+
+**++** - Incremento
+**--** - Decremento
+
+**Teoria na prática**
+**Vide exercicios1**
