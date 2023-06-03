@@ -14,36 +14,33 @@ usuário que escolha a operação a ser realizada, além dos números de entrada
 
 -->
 
-<!doctype html> 
+<!doctype html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="utf-8">
-        <title>Praticando JavaScript - Exercicio 01</title>
-    </head>
-    <body>
-        
-    </body>
+<head>
+	<meta charset="utf-8">
+	<title>Praticando Javascript - Exercício 1</title>
+</head>
+<body>
+       
+</body>
+     
+	<script type="text/javascript">
+    
+		var numero1 = prompt("Insira o primeiro número: ");
+		var numero2 = prompt("Insira o segundo número: ");
+    
+		var resultadoDivisao = divida(numero1, numero2); 
 
-    <script type="text/JavaScript">
+		alert('O resultado da divisão é igual a: ' + resultadoDivisao); 
 
-        var numero1 = prompt('Insira o primeiro número: ');
-        var numero2 = prompt('Insira o segundo número: ');
+		function divida(numero1, numero2){
 
-        var resultadoDivisao = divida(numero1, numero2);
-
-        alert('O resultado da divisão é igual a: ' + resultadoDivisao);
-
-        function divida(numero1, numero2) {
-            var resultado = 0;
-
-            resultado = numero1 / numero2;
-
-            return resultado;
-            
-        }
-
-    </script>
-
-
-
+			var resultado = 0; 
+      
+			resultado = numero1 / numero2;
+ 
+			return resultado;
+ 
+		}
+	</script>
 </html>
